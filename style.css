@@ -1,0 +1,31 @@
+* {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+.button1{
+ padding: 10px;
+ width: 150px;
+}
+.gradient-custom-2 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(
+    to right,
+    #24d6ee,
+    #fd595b,
+    #f585b0,
+    #b44593
+  );
+  background: linear-gradient(to right, #13e3f1, #36d89a, #61dbfa, #f59fdb);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
